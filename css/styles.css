@@ -9,18 +9,25 @@ html {
 }
 
 /* Variables */
+header {
+  position: relative;
+  height: 100vh;
+}
 
-.header {
+.header__particle {
+  position: absolute;
   background: radial-gradient(
     circle,
     rgba(62, 186, 234, 1) 0%,
     rgba(8, 24, 30, 1) 100%,
     rgba(0, 0, 0, 1) 100%
   );
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
-.nav {
+.header__nav {
+  position: inherit;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,6 +59,10 @@ a {
   height: 4.2rem;
   outline: none;
   width: 151px;
+}
+
+.header__hero {
+  position: inherit;
 }
 
 .fab {
