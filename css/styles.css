@@ -1,58 +1,75 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 /* Variables */
 
-
-.nav{
-    /* background-color: black; */
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header {
+  background: radial-gradient(
+    circle,
+    rgba(62, 186, 234, 1) 0%,
+    rgba(8, 24, 30, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  height: 100vh;
 }
 
-.nav_list{
-    border: 1px solid blue;
-    display: flex;
-    font-size: 1.8rem;
-    
-}
-.list-items{
-    list-style: none;
-    margin-right: 3.7rem;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+.nav_list {
+  display: flex;
+  font-size: 1.8rem;
+}
+.list-items {
+  list-style: none;
+  margin-right: 3.7rem;
 }
 
-.btn-whitepaper{
-    background: linear-gradient(269.76deg, #FABC32 50.21%, #FFB000 232.54%);
-    border: none;
-    border-radius: 50px;
-    box-shadow: 0px 4px 15px rgba(49, 50, 18, 0.64);
-    height: 4.2rem;
-    outline: none;
-    width: 151px;
-    color: white;
-    font-size: 20px;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-.nav_icons{
-    border: 1px solid green;
+.btn-whitepaper {
+  background: linear-gradient(269.76deg, #fabc32 50.21%, #ffb000 232.54%);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 4px 15px rgba(49, 50, 18, 0.64);
+  height: 4.2rem;
+  outline: none;
+  width: 151px;
+  color: white;
+  font-size: 20px;
 }
 
-.icon{
-    color: blue;
-    font-size: 20px;
-    margin-right: 15px;
+.icon {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.project {
+  height: 30vh;
+}
+
+.app {
+  height: 30vh;
+}
+
+.token {
+  height: 30vh;
+}
+
+.roadmap {
+  height: 30vh;
 }
