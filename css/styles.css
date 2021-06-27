@@ -3,6 +3,7 @@
   --color-primary-dark: #ffae00ec;
   --text-white-color: #ffffff;
   --text-blue-color: #3ebaea;
+  --color-background: #f1f1f1;
 }
 
 * {
@@ -165,9 +166,70 @@ p {
 }
 
 .project {
-  height: 30vh;
+  font-size: 1.8rem;
+  background-color: var(--color-background);
 }
 
+.project__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 90px 50px;
+}
+
+.project__content__fixtoken {
+  width: 50%;
+}
+
+.project__content__image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__content__image-img {
+  height: 20rem;
+  width: 200px;
+}
+
+.project-title {
+  color: var(--text-blue-color);
+}
+
+.project__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project__cards__section {
+  background-color: var(--text-white-color);
+  width: 32rem;
+  height: 50rem;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0 35px 60px 0;
+  box-shadow: 0px 4px 15px rgb(49 50 18 / 64%);
+}
+
+.cards__section-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cards__section-title {
+  font-size: 22px;
+  color: var(--text-blue-color);
+}
+
+/* espacios */
+/* espacios */
+/* espacios */
+/* espacios */
+/* espacios */
+/* espacios */
 .app {
   height: 30vh;
 }
