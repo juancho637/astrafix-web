@@ -82,5 +82,10 @@ a {
 }
 
 .roadmap {
-  height: 30vh;
+  padding: 5rem;
+  background: radial-gradient(
+    85.98% 85.98% at 56.82% 56.1%,
+    #76d9ff 0%,
+    #1683ad 91.67%
+  );
 }
