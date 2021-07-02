@@ -80,7 +80,7 @@ a:hover {
   box-shadow: 0px 4px 15px rgba(49, 50, 18, 0.64);
   color: var(--text-white-color);
   cursor: pointer;
-  font-size: 20px;
+  font-size: 2rem;
   height: 4.2rem;
   outline: none;
   transition: 0.5s;
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .nav__icons i {
-  font-size: 25px;
+  font-size: 2.5rem;
   margin-right: 15px;
   color: var(--text-white-color);
 }
@@ -132,7 +132,7 @@ p {
   box-shadow: 0px 4px 15px rgba(49, 50, 18, 0.64);
   color: var(--text-white-color);
   cursor: pointer;
-  font-size: 20px;
+  font-size: 2rem;
   height: 4.2rem;
   outline: none;
   transition: 0.5s;
@@ -153,7 +153,7 @@ p {
   box-shadow: 0px 4px 15px rgba(49, 50, 18, 0.64);
   color: var(--text-white-color);
   cursor: pointer;
-  font-size: 20px;
+  font-size: 2rem;
   height: 4.2rem;
   margin-left: 20px;
   outline: none;
@@ -172,12 +172,13 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 50%;
   min-width: 400px;
+  width: 50%;
 }
 
 .heroImg {
   height: 46rem;
+  width: 43rem;
 }
 
 .project {
@@ -205,7 +206,7 @@ p {
 
 .project__content__image-img {
   height: 20rem;
-  width: 200px;
+  width: 20rem;
 }
 
 .project-title {
@@ -225,12 +226,11 @@ p {
   border-radius: 20px;
   padding: 40px;
   margin: 0 35px 60px 0;
+  text-align: center;
   box-shadow: 0px 4px 15px rgb(49 50 18 / 64%);
 }
 
 .cards__section-img {
-  display: flex;
-  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -614,6 +614,28 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1024px) {
+  .header__nav {
+    font-size: 1.4rem;
+    justify-content: space-evenly;
+  }
+
+  .btn-whitepaper {
+    font-size: 1.4rem;
+    height: 4rem;
+    width: 15rem;
+  }
+
+  .list-items {
+    margin-right: 2rem;
+  }
+
+  .heroImg {
+    height: 36rem;
+    width: 33rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header__hero {
     /* border: 1px solid red; */
@@ -634,12 +656,13 @@ footer {
   }
 
   .header__hero__hero {
-    /* border: 1px solid red; */
-    width: 200px;
+    border: 1px solid red;
+    width: 20rem;
   }
 
   .heroImg {
-    height: 300px;
+    height: 36rem;
+    width: 33rem;
     /* border: 1px solid green; */
   }
 }
