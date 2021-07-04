@@ -322,6 +322,10 @@ p {
   color: var(--text-blue-color);
 }
 
+.text-center {
+  text-align: center;
+}
+
 .token__info {
   display: flex;
   justify-content: space-between;
